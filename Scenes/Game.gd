@@ -11,7 +11,7 @@ func AddPressed():
 	get_node("/root/SaveSystem").DisplayValue += 1
 
 func SavePressed():
-	pass
+	get_node("/root/SaveSystem").saveValue("Values", "ValueOne")
 
 func LoadPressed():
-	pass
+	get_node("/root/SaveSystem").saveValue("Values", "ValueOne")
